@@ -16,7 +16,10 @@ const Navbar = () => {
                 <Button component={Link} to="/" color="inherit">Parte 1</Button>
                 <Button component={Link} to="/parte2" color="inherit">Parte 2</Button>
                 <Button component={Link} to="/parte3" color="inherit">Parte 3</Button>
-                <Button component={Link} to="/parte4" color="inherit">Parte 4</Button>
+                <Button component={Link} to="/adminLigado" color="inherit">Admin Ligado</Button>
+                <Button component={Link} to="/adminDesligado" color="inherit">Admin Desligado</Button>
+                <Button component={Link} to="/paises" color="inherit">Países</Button>
+                <Button component={Link} to="/formSimples" color="inherit">Formulário Preenchido</Button>
             </Toolbar>
         </AppBar>
     );
